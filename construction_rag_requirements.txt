@@ -1,0 +1,55 @@
+# Construction RAG System Requirements
+# =====================================
+
+# Core Dependencies
+# -----------------
+
+# PDF Processing (PyMuPDF)
+pymupdf>=1.26.3
+
+# Vector Database
+chromadb>=0.4.0
+
+# Embeddings and NLP
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+
+# Optional Dependencies
+# ---------------------
+
+# IFC File Support (BIM Data)
+# Install with: pip install ifcopenshell
+# ifcopenshell>=0.7.0
+
+# OpenAI Integration (for embeddings and LLM)
+# Install with: pip install openai
+# openai>=1.0.0
+
+# Anthropic Claude Integration
+# Install with: pip install anthropic
+# anthropic>=0.7.0
+
+# Hugging Face Transformers (for custom models)
+# Install with: pip install transformers torch
+# transformers>=4.30.0
+# torch>=2.0.0
+
+# GPU Acceleration (NVIDIA CUDA)
+# Install with: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# Requires NVIDIA GPU and CUDA 11.8+
+
+# Additional Utilities
+# --------------------
+
+# Progress bars
+tqdm>=4.65.0
+
+# Data structures
+pydantic>=2.0.0
+
+# Logging
+colorlog>=6.7.0
+
+# Minimum Python Version
+# ----------------------
+# Python >= 3.9
